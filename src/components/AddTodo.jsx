@@ -14,14 +14,14 @@ class AddTodo extends Component {
 					type="text"
 					name="title"
 					id=""
-					placeholder="dodaj zadanie"
+					placeholder="Dodaj zadanie"
 					style={{ flex: '10', padding: '5px' }}
 					value={this.state.title}
 					onChange={this.onChange}
 				/>
 				<input
 					type="submit"
-					value="Submit"
+					value="Dodaj"
 					className="btn"
 					style={{ flex: '1' }}
 				/>
