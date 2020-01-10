@@ -6,7 +6,7 @@ class App extends Component {
 	state = {
 		todos: [
 			{ id: 1, title: 'pierwsza rzecz do zrobienia', completed: false },
-			{ id: 2, title: 'druga rzecz do zrobienia', completed: false },
+			{ id: 2, title: 'druga rzecz do zrobienia', completed: true },
 			{ id: 3, title: 'trzecia rzecz do zrobienia', completed: false }
 		]
 	};
